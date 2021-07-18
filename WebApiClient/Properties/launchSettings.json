@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WebApiClient": {
+      "commandName": "Project",
+      "commandLineArgs": "[\"https://api.filtered.ai/q/foodtruck\", \"1602172800\", \"ZmlsdGVyZWQ6YWRtaW4\"]"
+    }
+  }
+}
