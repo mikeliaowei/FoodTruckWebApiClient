@@ -36,8 +36,8 @@ If the system will be serving for millions of concurrent users in the future, we
    1) with 80-20 rule, we can try caching 20% of daily read volume of food truck data, we can use either Redis or Memcache.
    2) We should use Consistent Hashing to hand the fault tolerance and replication.
 6. We can also introduce an API Rate Limiter service into the system, to do so we can:
-   a) Prevent misbehaving clients and scripts.
-   b) Improve system security.
-   c) To prevent abusive behavior and bad design practices.
-   d) To keep costs and resource usage under control.
-   f) To eliminate spikiness in traffic.
+   a). Prevent misbehaving clients and scripts.
+   b). Improve system security.
+   c). To prevent abusive behavior and bad design practices.
+   d). To keep costs and resource usage under control.
+   f). To eliminate spikiness in traffic.
